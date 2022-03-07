@@ -1,0 +1,66 @@
+body
+{
+    background-color: #03262e;
+    color: #ffff;
+}
+
+p
+{
+    font-size: larger;
+}
+
+.logo
+{
+    width: 70px;
+    height: 70px;
+}
+
+.heading
+{
+    text-align: center;
+    margin-top: 7%;
+    padding: 0 33.33%;
+}    
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+    padding: 0%;
+  }
+
+  .row
+  {
+    margin-top: 160px;
+    margin-bottom: 20px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.data {
+    display: none;
+}
+
+.g-signin2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.fb-login-button
+{
+    left: 0px;
+    right: 0px;
+    margin-left: 660px;
+    top: 70px;
+}
+
